@@ -1,0 +1,126 @@
+/* .logo {
+    width: 131px;
+}
+.logo__item-net {
+    width: 80px;
+}
+.logo__item {
+    list-style-type: none;
+    background: linear-gradient(rgb(131, 129, 129), #38495a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo__item-net_telegram {
+    width: 110px;
+}
+.logo__item-net_instagram {
+    width: 100px;
+}
+.logo__item-net_fb {
+    width: 98px; */
+/* } */
+.footer {
+    max-width: 100%;
+    height: 250px;
+    /* position: absolute; */
+    /* background: rgba(255, 255, 255, 0.05); */
+    margin: 20px;
+    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(237, 237, 237), #38495a);
+    backdrop-filter: blur(10px);
+}
+.footer__logo-net {
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 35px;
+}
+/* .footer__logo_net-left:hover {
+    color: brown;
+} */
+
+.footer__adress_item {
+    display: flex;
+    list-style-type: none;
+    font-size: 26px;
+    padding-left: 103px;
+    background: linear-gradient(rgb(131, 129, 129), #38495a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.aName {
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    bottom: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    transition: all time;
+}
+/* .social__item {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    bottom: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    transition: all time;
+
+} */
+
+.whatsapp:hover {
+    border-color: #4dc247;
+    box-shadow: 0px 0px 35px #4dc247;
+    color: #4dc247;
+}
+
+.instagram:hover {
+    border-color: #d360ad;
+    box-shadow: 0px 0px 45px #bf00a5;
+    color: #c41a99;
+}
+
+.vk:hover {
+    border-color: #270d86;
+    box-shadow: 0px 0px 35px #24138f;
+    color: #1d36c4;
+}
+
+.telegram:hover {
+    border-color: #3267da;
+    box-shadow: 0px 0px 35px #3267da;
+    color: #3267da;
+}
+.a-makers {
+    text-decoration: none;
+    background: linear-gradient(rgb(131, 129, 129), #38495a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

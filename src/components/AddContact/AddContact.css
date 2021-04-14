@@ -1,0 +1,115 @@
+input {
+    font-size: 17px;
+
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+
+    color: rgb(0, 0, 0);
+    font-family: "Slabo 27px", serif;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+/* input::placeholder {
+    color: red;
+    opacity: 1;
+} */
+
+.add-table {
+    color: #070707 !important;
+    margin-top: 13px;
+    text-align: center;
+    height: 30px;
+}
+
+.add__table_btn {
+    background: #d89d46;
+    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    height: 33px;
+    backdrop-filter: blur(10px);
+}
+@media all and (max-width: 940px) {
+    .makers-title {
+        font-size: 40px;
+    }
+    .add-table,
+    .add__table_btn {
+        width: 80vh;
+    }
+}
+@media all and (max-width: 950px) {
+    .add-table,
+    .add__table_btn {
+        width: 60vh;
+    }
+}
+@media all and (max-width: 815px) {
+    .makers-title {
+        font-size: 20px;
+    }
+    .add-table,
+    .add__table_btn {
+        width: 40vh;
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 806px) {
+    .header-inp {
+        width: 30vh;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .add-table,
+    .add__table_btn {
+        margin: 0 auto;
+        margin-left: -3px;
+        width: 232px;
+        margin-bottom: 5px;
+    }
+
+    .header-title {
+        margin: 100px;
+    }
+}
+@media all and (max-width: 600px) {
+    .header-inp {
+        margin-left: -2px;
+    }
+}
+@media all and (max-width: 500px) {
+    .footer__logo-net {
+        width: 100vh;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width: 425px) {
+    .add-table,
+    .add__table_btn {
+        width: 100vh;
+        margin-left: -40px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .add-table,
+    .add__table_btn {
+        margin-left: -50px;
+    }
+}
+@media all and (max-width: 345px) {
+    .social__item {
+        width: 23vh;
+    }
+}
